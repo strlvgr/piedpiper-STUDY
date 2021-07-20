@@ -1,0 +1,194 @@
+@import url("'https://fonts.googleapis.com/css2?family=Roboto&display=swap'");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: #007765;
+  position: fixed;
+  width: 100%;
+  margin: auto;
+}
+.logo {
+  float: left;
+  padding-top: 20px;
+}
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: auto;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: auto;
+  max-width: 1219px;
+  padding: 15px;
+  margin: 0 auto;
+}
+nav a {
+  text-decoration: none;
+  line-height: 45px;
+  color: white;
+}
+.main {
+  background-image: url(/Users/Liza/Desktop/Figma/image-8.png);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 403px;
+  margin: auto;
+}
+.headline {
+  text-align: center;
+  color: white;
+  font-size: 72px;
+  font-weight: 500;
+  padding-top: 160px;
+  padding-bottom: 140px;
+}
+.problem {
+  background: #eeeeee;
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  padding-left: 55px;
+  padding-right: 55px;
+  text-align: center;
+}
+.h1 {
+  color: #007765;
+  margin: auto;
+  padding-top: 48px;
+  padding-bottom: 16px;
+  font-weight: normal;
+  font-size: 64px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-size: 32px;
+  margin: auto;
+  padding-bottom: 52px;
+  width: auto;
+}
+.select {
+  font-weight: 700;
+}
+.hero {
+  background-image: url(Hero.png);
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  padding: auto;
+  width: 100%;
+  height: 383px;
+  box-sizing: border-box;
+}
+.coin {
+  background: white;
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin: auto;
+}
+h2 {
+  color: #007765;
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  padding: auto;
+}
+.ppc {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  font-size: 32px;
+}
+.ppc img {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.coin p {
+  padding-left: 48px;
+}
+.italic {
+  font-style: italic;
+}
+.textcoin1 {
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team {
+  background: #eeeeee;
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  padding-left: 55px;
+  padding-right: 55px;
+  text-align: center;
+}
+h3 {
+  color: #007765;
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  padding-top: 48px;
+}
+
+.member {
+  text-align: center;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  flex-basis: 30%;
+}
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #007765;
+}
+.member-role {
+  font-size: 18px;
+  font-style: italic;
+}
+.members {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer {
+  background-color: #333333;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding-top: 48px;
+  padding-bottom: 60px;
+}
